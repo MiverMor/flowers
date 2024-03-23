@@ -1,16 +1,3 @@
-// const swiperFC = new Swiper('.flower-carousel', {
-//   // Optional parameters
-//   direction: 'vertical',
-//   loop: true,
-
-//   // Navigation arrows
-//   navigation: {
-//     nextEl: '.swiper-button_next',
-//     prevEl: '.swiper-button_prev',
-//   },
-
-// });
-
 var swiperFC = new Swiper(".flower__carousel", {
   slidesPerView: 1,
   spaceBetween: 10,
@@ -37,5 +24,14 @@ var swiperFC = new Swiper(".flower__carousel", {
       slidesPerView: 6,
       spaceBetween: 50,
     },
+  },
+});
+
+const reviewsSwiper = new Swiper(".reviews__swiper", {
+  loop: true,
+
+  navigation: {
+    nextEl: ".reviews__button-next",
+    prevEl: ".reviews__button-prev",
   },
 });

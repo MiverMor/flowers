@@ -525,4 +525,133 @@ template {
 }
 .flower__arrow_prev {
   margin-right: 10px;
+}
+
+.advantages {
+  margin-top: 98px;
+  border-bottom: 1px solid rgb(76, 76, 76);
+}
+.advantages__title {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 27px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 94px;
+}
+.advantages__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+.advantages__info {
+  max-width: 220px;
+  min-height: 179px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.advantages__holland {
+  width: 78px;
+}
+.advantages__experients {
+  width: 66px;
+}
+.advantages__sorting {
+  width: 76px;
+}
+.advantages__text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.reviews {
+  margin-bottom: 93px;
+}
+.reviews__swiper {
+  width: 100%;
+  height: 100%;
+}
+.reviews__slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reviews__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 753px;
+}
+.reviews__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 223px;
+  height: 223px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  font-size: 20px;
+  position: relative;
+}
+.reviews__image::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+}
+.reviews__image_1 {
+  background-image: url(../../img/reviews-img/image-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.reviews__image > * {
+  position: relative;
+}
+.reviews__name {
+  font-weight: 400;
+  margin-bottom: 7px;
+}
+.reviews__city {
+  font-weight: 300;
+}
+.reviews__info {
+  display: flex;
+  flex-direction: column;
+  max-width: 481px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 16px;
+}
+.reviews__link {
+  color: #FF3469;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 16px;
+  text-underline-position: under;
+  margin-top: 19px;
+}
+.reviews__button {
+  position: absolute;
+  top: 50%;
+  trtransform: translateY(-50%);
+  width: 34px;
+  height: 35px;
+  z-index: 1;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.reviews__button-next {
+  right: 0px;
+}
+.reviews__button-prev {
+  left: 0;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,109 @@
+.advantages
+  margin-top: 98px
+  border-bottom: 1px solid rgba(76, 76, 76, 1)
+  &__title
+    font-size: 30px
+    font-weight: 400
+    line-height: 27px
+    text-transform: uppercase
+    text-align: center
+    margin-bottom: 94px
+  &__main
+    display: flex
+    align-items: center
+    justify-content: space-evenly
+    margin-bottom: 100px
+  &__info
+    max-width: 220px
+    min-height: 179px
+    text-align: center
+    display: flex
+    align-items: center
+    flex-direction: column
+    justify-content: space-between
+  &__holland
+    width: 78px
+  &__experients
+    width: 66px
+  &__sorting
+    width: 76px
+  &__text
+    font-size: 20px
+    font-weight: 400
+    line-height: 22px
+
+.reviews
+  margin-bottom: 93px
+  &__swiper
+    width: 100%
+    height: 100%
+  &__wrapper
+    // max-width: 753px
+  &__slide
+    display: flex
+    justify-content: center
+    align-items: center
+  &__item
+    display: flex
+    align-items: center
+    justify-content: space-between
+    width: 753px
+  &__image
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    width: 223px
+    height: 223px
+    flex-shrink: 0
+    border-radius: 50%
+    overflow: hidden
+    font-size: 20px
+    position: relative
+    &::before
+      content: ''
+      width: 100%
+      height: 100%
+      background-color: rgba(0, 0, 0, 0.6)
+      position: absolute
+    &_1
+      background-image: url(../../img/reviews-img/image-1.jpg)
+      background-repeat: no-repeat
+      background-size: cover
+  &__image > *
+    position: relative
+  &__name
+    font-weight: 400
+    margin-bottom: 7px
+
+  &__city
+    font-weight: 300
+
+  &__info
+    display: flex
+    flex-direction: column
+    max-width: 481px
+    font-size: 18px
+    font-weight: 300
+    line-height: 16px
+  &__link
+    color: $secondary
+    font-size: 18px
+    font-weight: 300
+    line-height: 16px
+    text-underline-position: under
+    margin-top: 19px
+  &__button
+    position: absolute
+    top: 50%
+    trtransform: translateY(-50%)
+    width: 34px
+    height: 35px
+    z-index: 1
+    border: none
+    background-color: transparent
+    cursor: pointer
+    &-next
+      right: 0px
+    &-prev
+      left: 0
