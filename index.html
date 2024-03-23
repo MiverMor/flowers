@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flowers</title>
-    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header class="header">
@@ -30,18 +30,66 @@
           <!-- /.header__tel -->
         </div>
         <!-- /.header__top -->
-        <div class="header__main">
-          <h1 class="header__title">
-            Эксклюзивные цветы и букеты flowers Shop
-          </h1>
-          <h2 class="header__subtitle">
-            первая в россии эксклюзивная доставка цветов для людей, которые
-            ценят <strong>уникальность</strong>
-          </h2>
-        </div>
-        <!-- /.header__main -->
       </div>
       <!-- /.container -->
+      <div class="header__main">
+        <h1 class="header__title">Эксклюзивные цветы и букеты flowers Shop</h1>
+        <h2 class="header__subtitle">
+          первая в россии эксклюзивная доставка цветов для людей, которые ценят
+          <strong>уникальность</strong>
+        </h2>
+
+        <div class="flower">
+          <button class="flower__arrow flower__arrow_prev">
+            <svg class="flower__arrow-left">
+              <use xlink:href="img\sprite.svg#flower-arrowLeft"></use>
+            </svg>
+          </button>
+          <div class="flower__carousel swiper">
+            <div class="swiper-wrapper flower__slides">
+              <div class="flower__img swiper-slide">
+                <img src="img/flowers-img/img-1.png" alt="Image: flower" />
+              </div>
+              <div class="flower__img swiper-slide">
+                <img src="img/flowers-img/img-2.png" alt="Image: flower" />
+              </div>
+              <div class="flower__img swiper-slide">
+                <img src="img/flowers-img/img-3.png" alt="Image: flower" />
+              </div>
+              <div class="flower__img swiper-slide">
+                <img src="img/flowers-img/img-4.png" alt="Image: flower" />
+              </div>
+              <div class="flower__img swiper-slide">
+                <img src="img/flowers-img/img-5.png" alt="Image: flower" />
+              </div>
+              <div class="flower__img swiper-slide">
+                <img src="img/flowers-img/img-6.png" alt="Image: flower" />
+              </div>
+              <div class="flower__img swiper-slide">
+                <img src="img/flowers-img/img-1.png" alt="Image: flower" />
+              </div>
+              <div class="flower__img swiper-slide">
+                <img src="img/flowers-img/img-2.png" alt="Image: flower" />
+              </div>
+              <div class="flower__img swiper-slide">
+                <img src="img/flowers-img/img-3.png" alt="Image: flower" />
+              </div>
+            </div>
+          </div>
+          <!-- /.swiper flower-carousel -->
+          <button class="flower__arrow flower__arrow_next">
+            <svg class="flower__arrow-right">
+              <use xlink:href="img\sprite.svg#flower-arrowRight"></use>
+            </svg>
+          </button>
+        </div>
+        <!-- /.flower -->
+        <h3 class="header__promotion">
+          Закажите эксклюзивный букет со <strong>скидкой 10%</strong>
+        </h3>
+        <button class="header__order">Заказать букет</button>
+      </div>
+      <!-- /.header__main -->
     </header>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>

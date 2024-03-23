@@ -33,6 +33,7 @@ body {
   font-weight: 400;
   background-color: rgb(41, 41, 41);
   color: #fff;
+  margin: 0;
 }
 
 .container {
@@ -386,6 +387,7 @@ template {
 
 .header {
   padding-top: 50px;
+  border-bottom: 1px solid rgb(76, 76, 76);
 }
 .header__top {
   display: flex;
@@ -442,10 +444,85 @@ template {
   margin: auto;
   margin-top: 33px;
 }
+.header__promotion {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 34px;
+}
+.header__order {
+  border-color: rgb(255, 46, 85);
+  border-width: 3px;
+  border-style: solid;
+  background-color: rgb(255, 46, 85);
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 14px;
+  padding: 25px 62px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 75px;
+}
 
 .number {
   font-size: 20px;
   font-weight: 400;
   text-decoration: none;
   color: #fff;
+}
+
+.flower {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 87px;
+  margin-bottom: 67px;
+}
+.flower__carousel {
+  width: 970px;
+  margin: 0;
+}
+.flower__slides {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flower__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 107px;
+  text-align: center;
+}
+.flower__arrow {
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.flower__arrow-left {
+  fill: #fff;
+  width: 8px;
+  height: 14px;
+}
+.flower__arrow-left:hover {
+  fill: rgb(255, 46, 85);
+}
+.flower__arrow-right {
+  fill: #fff;
+  width: 8px;
+  height: 14px;
+}
+.flower__arrow-right:hover {
+  fill: rgb(255, 46, 85);
+}
+.flower__arrow_next {
+  margin-left: 10px;
+}
+.flower__arrow_prev {
+  margin-right: 10px;
 }/*# sourceMappingURL=style.css.map */
