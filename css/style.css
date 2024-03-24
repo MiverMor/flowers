@@ -795,4 +795,44 @@ template {
   background-color: transparent;
   font-style: 16px;
   border: none;
+}
+
+.questions {
+  background-color: rgb(26, 26, 26);
+  padding-top: 100px;
+  padding-bottom: 84px;
+  text-align: center;
+  border-buttom: 1px solid rgb(71, 71, 71);
+}
+.questions__title {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 23px;
+  margin: 0;
+  margin-bottom: 29px;
+}
+.questions__label {
+  text-transform: uppercase;
+  display: block;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 23px;
+  text-underline-position: under;
+  color: #fff;
+  margin-bottom: 52px;
+}
+.questions__or {
+  display: block;
+  font-size: 14px;
+  line-height: 13px;
+  margin-bottom: 22px;
+}
+.questions__tel {
+  display: block;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 31px;
+  color: #fff;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
