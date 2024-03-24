@@ -8,11 +8,15 @@
         <path d="M972 2v1l7 6.108L972 15v1l8-6.976L972 2Z" fill-rule="evenodd" data-name="2-ховер"/>
     </symbol>
 
-    <symbol xmlns="http://www.w3.org/2000/svg" width="21" height="34" viewBox="922 2 21 34" id="reviews-arrowNext">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="922 2 21 34" id="reviews-arrowNext">
        <path d="M923 2h-1l20 16.977L922 36h1l20-17-20-17Z" fill="rgba(242, 72, 65, 1)" fill-rule="evenodd" data-name="Фигура 4 копия"/>
     </symbol>
 
-    <symbol xmlns="http://www.w3.org/2000/svg" width="21" height="34" viewBox="2 2 21 34" id="reviews-arrowPrev">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="2 2 21 34" id="reviews-arrowPrev">
        <path d="M22 2h1L3 18.977 23 36h-1L2 19 22 2Z" fill="rgba(242, 72, 65, 1)" fill-rule="evenodd" data-name="Фигура 4"/>
+    </symbol>
+
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="89 4 10 4" id="more">
+       <path d="M89 5V4l4.964 3L99 4v1l-4.953 3L89 5Z" fill="rgba(242, 72, 65, 1)" fill-rule="evenodd" data-name="Фигура 6"/>
     </symbol>
 </svg>
