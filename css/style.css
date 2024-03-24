@@ -835,4 +835,93 @@ template {
   line-height: 31px;
   color: #fff;
   text-decoration: none;
+}
+
+.footer {
+  padding-top: 50px;
+}
+.footer__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+.footer__info {
+  display: flex;
+  flex-direction: column;
+}
+.footer__link {
+  display: flex;
+}
+.footer__link_item {
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 16px;
+  text-underline-position: under;
+  text-transform: uppercase;
+  margin-right: 25px;
+}
+.footer__message {
+  display: flex;
+  align-items: center;
+  margin-top: 28px;
+}
+.footer__message_text {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 15px;
+  margin-right: 20px;
+}
+.footer__message_icon {
+  width: 20px;
+  height: 12px;
+}
+.footer__support {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.footer__support_text {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 13px;
+}
+.footer__support_tel {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #fff;
+  text-decoration: none;
+  margin: 11px 0;
+}
+.footer__bottom {
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 44px;
+}
+.footer__flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__favicon {
+  display: flex;
+  align-items: center;
+}
+.footer__text {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 13px;
+  width: 120px;
+  margin-left: 42px;
+  color: rgb(41, 41, 41);
+}
+.footer__developer {
+  color: rgb(41, 41, 41);
+  display: block;
+  font-size: 14px;
+  line-height: 12px;
+  font-weight: 300;
 }/*# sourceMappingURL=style.css.map */
