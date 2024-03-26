@@ -8,19 +8,19 @@ var swiperFC = new Swiper(".flower__carousel", {
   },
 
   breakpoints: {
-    "@0.00": {
-      slidesPerView: 1,
+    300: {
+      slidesPerView: 3,
       spaceBetween: 10,
     },
-    "@0.75": {
-      slidesPerView: 2,
-      spaceBetween: 20,
-    },
-    "@1.00": {
-      slidesPerView: 3,
+    700: {
+      slidesPerView: 4,
       spaceBetween: 40,
     },
-    "@1.50": {
+    960: {
+      slidesPerView: 5,
+      spaceBetween: 45,
+    },
+    1200: {
       slidesPerView: 6,
       spaceBetween: 50,
     },

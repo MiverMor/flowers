@@ -641,7 +641,7 @@ template {
 .reviews__button {
   position: absolute;
   top: 50%;
-  trtransform: translateY(-50%);
+  transform: translateY(-50%);
   width: 34px;
   height: 35px;
   z-index: 1;
@@ -673,10 +673,10 @@ template {
 .collect__subtitle {
   margin: 0;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 16px;
-  text-transform: uppercase;
   margin-bottom: 75px;
+  text-align: center;
 }
 .collect__more {
   display: flex;
@@ -924,4 +924,131 @@ template {
   font-size: 14px;
   line-height: 12px;
   font-weight: 300;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 900px;
+  }
+  .flower__carousel {
+    width: 900px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 700px;
+  }
+  .flower__carousel {
+    width: 680px;
+  }
+  .reviews__image {
+    width: 180px;
+    height: 180px;
+  }
+  .reviews__item {
+    width: 600px;
+  }
+  .reviews__info {
+    max-width: 385px;
+  }
+  .cards__card {
+    min-width: 48%;
+  }
+  .cards__label {
+    margin-bottom: 10px;
+  }
+  .colors__label {
+    width: 25px;
+    height: 25px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 576px;
+    width: 92%;
+  }
+  .header__title {
+    font-size: 28px;
+  }
+  .header__subtitle {
+    font-size: 16px;
+  }
+  .flower__carousel {
+    width: 600px;
+  }
+  .reviews__image {
+    width: 150px;
+    height: 150px;
+  }
+  .reviews__item {
+    width: 500px;
+  }
+  .reviews__info {
+    max-width: 325px;
+  }
+  .reviews__name {
+    font-size: 16px;
+  }
+  .reviews__city {
+    font-size: 14px;
+  }
+  .reviews__text {
+    font-size: 16px;
+  }
+  .reviews__link {
+    font-size: 16px;
+  }
+  .advantages__text {
+    font-size: 18px;
+  }
+  .questions__label {
+    line-height: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .header__text {
+    display: none;
+  }
+  .header__tel_info {
+    display: none;
+  }
+  .header__tel_order {
+    display: none;
+  }
+  .flower__arrow {
+    display: none;
+    align-content: center;
+    justify-content: center;
+  }
+  .reviews__item {
+    flex-direction: column;
+  }
+  .reviews__text {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .reviews__link {
+    text-align: center;
+  }
+  .advantages__main {
+    display: none;
+  }
+  .cards {
+    justify-content: center;
+  }
+  .cards__card {
+    min-width: 90%;
+  }
+  .cards__title {
+    font-size: 26px;
+    font-weight: 400;
+  }
+  .cards__label {
+    font-size: 18px;
+    margin: 25px 0 15px;
+  }
+  .colors__label {
+    width: 35px;
+    height: 35px;
+  }
 }/*# sourceMappingURL=style.css.map */
