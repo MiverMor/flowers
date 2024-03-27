@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flowers</title>
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -26,7 +26,13 @@
           <div class="header__tel">
             <a href="tel:+78006548745" class="number">8 (800) 654-87-45</a>
             <span class="header__tel_info">Звонок по России бесплатный</span>
-            <a href="#" class="header__tel_order">Заказать звонок</a>
+            <a
+              data-fancybox
+              data-src="#modal"
+              href="javascript:;"
+              class="header__tel_order"
+              >Заказать звонок</a
+            >
           </div>
           <!-- /.header__tel -->
         </div>
@@ -88,7 +94,14 @@
         <h3 class="header__promotion">
           Закажите эксклюзивный букет со <strong>скидкой 10%</strong>
         </h3>
-        <button class="header__order">Заказать букет</button>
+        <button
+          data-fancybox
+          data-src="#modal"
+          href="javascript:;"
+          class="header__order"
+        >
+          Заказать букет
+        </button>
       </div>
       <!-- /.header__main -->
     </header>
@@ -737,10 +750,10 @@
             <!-- /.colors -->
 
             <span class="cards__label">Количество:</span>
-            <div class="counter">
-              <button class="counter__button">-</button>
+            <div class="counter data-counter">
+              <button class="counter__button counter__button_minus">-</button>
               <input type="text" class="counter__input" value="1" />
-              <button class="counter__button">+</button>
+              <button class="counter__button counter__button_plus">+</button>
             </div>
             <!-- /.counter -->
             <button class="cards__button">В корзину</button>
@@ -763,7 +776,11 @@
     <section class="questions">
       <div class="container">
         <h2 class="questions__title">ОСТАЛИСЬ ВОПРОСЫ?</h2>
-        <a href="#" class="questions__label"
+        <a
+          data-fancybox
+          data-src="#modal"
+          href="javascript:;"
+          class="questions__label"
           >ЗАКАЖИТЕ ЗВОНОК НАШЕГО флориста!</a
         >
         <span class="questions__or">или позвоните по телефону</span>
@@ -825,6 +842,19 @@
       </div>
       <!-- /.footer__bottom -->
     </footer>
+
+    <div class="modal" id="modal">
+      <h2 class="modal__title">Закажите обратный звонок</h2>
+      <form action="#">
+        <input
+          type="tel"
+          class="modal__input"
+          placeholder="+7 (___) __-__-__"
+        />
+        <button class="modal__button">Перезвоните мне</button>
+      </form>
+    </div>
+    <!-- /.modal -->
 
     <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
